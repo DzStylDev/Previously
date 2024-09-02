@@ -1,0 +1,36 @@
+/* ============ header =========== */
+header{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818bf;
+    box-shadow: 0px -1px 7px rgb(0, 0, 0);
+    padding: 8px 5%;
+    z-index: 1000;
+    width: 100vw;
+    height: 50px;
+    gap: 65%;
+    backdrop-filter: blur(8px);
+}
+.logo{
+    color: #ffffff;
+    text-decoration: none;
+}
+.blokHomeUser{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.logoHeader{
+    width: 100px;
+    margin-left: -80%;
+}
+.imgProfil {
+    width: 30px;
+}
+
+.compte {
+    display: none;
+
+}

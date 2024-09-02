@@ -1,0 +1,59 @@
+.blok-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 213px);
+    grid-gap: 71px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-friend {
+    text-decoration: none;
+    box-shadow: 0px 0px 10px #5e0000;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.title-friends {
+    margin: 0 auto;
+    width: 57%;
+    margin-bottom: 5em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.button_ajout {
+    border: none;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    outline: 1px solid mintcream;
+    background-color: transparent;
+    color: mintcream;
+    padding: 0.5em;
+    width: 100%;
+    background: #370d0d;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.image {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.friend-container-options {
+    padding: 0.5em;
+    display: flex;
+    background-color: #370d0d;
+    margin-top: 1em;
+    justify-content: space-between
+}

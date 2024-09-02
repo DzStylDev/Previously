@@ -1,0 +1,114 @@
+.wrapper{
+    /* background-color: aqua; */
+}
+
+
+
+
+.mainHome{
+    color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 30px 0px;
+}
+.blok1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: grey; */
+    width: 100%;
+    margin-top: 50px;
+}
+.blokSerie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: 0.3s all ease-in-out;
+    /* transition: 0.3s; */
+    position: relative; /* Ajoutez une position relative */
+    overflow: hidden;
+}
+.blokSerie:hover{
+    background-color: #212121;
+    box-shadow: 0px 0px 7px black;
+    transform: scale(1.2); /* Agrandit la carte au survol */
+    z-index: 5;
+}
+.blokSerie:hover .boxAddSerie {
+    display: flex;
+    opacity: 1;
+    animation: smootIcon 0.6s ease-in-out;
+}
+@keyframes smootIcon {
+    0% {
+      opacity: 0.3;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .blokSerie:hover .imgSerie {
+    display: flex;
+    opacity: 0.5;
+    animation: smootImg 0.3s ease-in-out;
+    border-radius: 0px;
+}
+  @keyframes smootImg {
+    0% {
+      opacity: 1;
+    }
+    100%{
+      opacity: 0.5;
+    }
+  }
+  .blokSerie:hover .linkDesc {
+    display: flex;
+}
+.linkImg{
+    width: 100%;
+    height: 70%;
+}
+.imgSerie {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 6px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+.boxAddSerie{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.boxBtnSerie{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.btnAdd{
+  width: 20px;
+  margin-bottom: 20px;
+}
+.descSerie{
+    width: 40px;
+}
+.linkDesc{
+    display: none;
+    position: absolute;
+    bottom: 40%;
+}
