@@ -11,4 +11,4 @@ Authentification via l'api betaseries.
 Projet fait en React
 
 # Pour lancer le projet
-     - ``npm start``
+     - npm start
